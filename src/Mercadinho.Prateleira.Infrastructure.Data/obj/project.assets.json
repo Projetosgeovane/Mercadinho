@@ -160,6 +160,16 @@
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Mercadinho.Prateleira.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Mercadinho.Prateleira.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercadinho.Prateleira.Domain.dll": {}
+        }
       }
     }
   },
@@ -519,10 +529,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Mercadinho.Prateleira.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj",
+      "msbuildProject": "../Mercadinho.Prateleira.Domain/Mercadinho.Prateleira.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Mercadinho.Prateleira.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10"
     ]
   },
@@ -560,7 +576,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\geova\\Documents\\Dio\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj": {
+              "projectPath": "C:\\Users\\geova\\Documents\\Dio\\Mercadinho.Prateleira\\src\\Mercadinho.Prateleira.Domain\\Mercadinho.Prateleira.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

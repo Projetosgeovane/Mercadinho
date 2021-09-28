@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mercadinho.Prateleira.Domain
 {
-    class Qualitativo
+    public class Qualitativo
     {
         public int Id { get; set; }
         public UnidadeMedidaEnum UnidadeMedida { get; set; }

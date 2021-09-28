@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mercadinho.Prateleira.Domain
 {
-    class Estoque
+    public class Estoque
     {
         public int Id { get; set; }
         public Produto Produto { get; set; }
